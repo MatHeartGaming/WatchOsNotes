@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE92D8232A815B6E00943FE0 /* WatchNotes Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FE92D8222A815B6E00943FE0 /* WatchNotes Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FE92D8282A815B6E00943FE0 /* WatchNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE92D8272A815B6E00943FE0 /* WatchNotesApp.swift */; };
+		FE92D82A2A815B6E00943FE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE92D8292A815B6E00943FE0 /* ContentView.swift */; };
+		FE92D82C2A815B6F00943FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE92D82B2A815B6F00943FE0 /* Assets.xcassets */; };
+		FE92D82F2A815B6F00943FE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE92D82E2A815B6F00943FE0 /* Preview Assets.xcassets */; };
+		FE92D83D2A815D8E00943FE0 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE92D83C2A815D8E00943FE0 /* Note.swift */; };
+		FE92D83F2A816D8C00943FE0 /* DetailVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE92D83E2A816D8C00943FE0 /* DetailVIew.swift */; };
+		FE92D8412A8170F900943FE0 /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE92D8402A8170F900943FE0 /* CreditView.swift */; };
+		FE92D8432A81716400943FE0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE92D8422A81716400943FE0 /* HeaderView.swift */; };
+		FE92D8452A81749C00943FE0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE92D8442A81749C00943FE0 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE92D8242A815B6E00943FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE92D8162A815B6E00943FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE92D8212A815B6E00943FE0;
+			remoteInfo = "WatchNotes Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE92D8352A815B6F00943FE0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FE92D8232A815B6E00943FE0 /* WatchNotes Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE92D81C2A815B6E00943FE0 /* WatchNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE92D8222A815B6E00943FE0 /* WatchNotes Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchNotes Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE92D8272A815B6E00943FE0 /* WatchNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchNotesApp.swift; sourceTree = "<group>"; };
+		FE92D8292A815B6E00943FE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE92D82B2A815B6F00943FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE92D82E2A815B6F00943FE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE92D83C2A815D8E00943FE0 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		FE92D83E2A816D8C00943FE0 /* DetailVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVIew.swift; sourceTree = "<group>"; };
+		FE92D8402A8170F900943FE0 /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		FE92D8422A81716400943FE0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FE92D8442A81749C00943FE0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE92D81F2A815B6E00943FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE92D8152A815B6E00943FE0 = {
+			isa = PBXGroup;
+			children = (
+				FE92D8262A815B6E00943FE0 /* WatchNotes Watch App */,
+				FE92D81D2A815B6E00943FE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE92D81D2A815B6E00943FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE92D81C2A815B6E00943FE0 /* WatchNotes.app */,
+				FE92D8222A815B6E00943FE0 /* WatchNotes Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE92D8262A815B6E00943FE0 /* WatchNotes Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FE92D83B2A815D7B00943FE0 /* Components */,
+				FE92D83A2A815D7500943FE0 /* Model */,
+				FE92D8392A815D6100943FE0 /* View */,
+				FE92D8272A815B6E00943FE0 /* WatchNotesApp.swift */,
+				FE92D8292A815B6E00943FE0 /* ContentView.swift */,
+				FE92D82B2A815B6F00943FE0 /* Assets.xcassets */,
+				FE92D82D2A815B6F00943FE0 /* Preview Content */,
+			);
+			path = "WatchNotes Watch App";
+			sourceTree = "<group>";
+		};
+		FE92D82D2A815B6F00943FE0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE92D82E2A815B6F00943FE0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE92D8392A815D6100943FE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE92D83E2A816D8C00943FE0 /* DetailVIew.swift */,
+				FE92D8402A8170F900943FE0 /* CreditView.swift */,
+				FE92D8442A81749C00943FE0 /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE92D83A2A815D7500943FE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE92D83C2A815D8E00943FE0 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE92D83B2A815D7B00943FE0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FE92D8422A81716400943FE0 /* HeaderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE92D81B2A815B6E00943FE0 /* WatchNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE92D8362A815B6F00943FE0 /* Build configuration list for PBXNativeTarget "WatchNotes" */;
+			buildPhases = (
+				FE92D81A2A815B6E00943FE0 /* Resources */,
+				FE92D8352A815B6F00943FE0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE92D8252A815B6E00943FE0 /* PBXTargetDependency */,
+			);
+			name = WatchNotes;
+			productName = WatchNotes;
+			productReference = FE92D81C2A815B6E00943FE0 /* WatchNotes.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		FE92D8212A815B6E00943FE0 /* WatchNotes Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE92D8322A815B6F00943FE0 /* Build configuration list for PBXNativeTarget "WatchNotes Watch App" */;
+			buildPhases = (
+				FE92D81E2A815B6E00943FE0 /* Sources */,
+				FE92D81F2A815B6E00943FE0 /* Frameworks */,
+				FE92D8202A815B6E00943FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchNotes Watch App";
+			productName = "WatchNotes Watch App";
+			productReference = FE92D8222A815B6E00943FE0 /* WatchNotes Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE92D8162A815B6E00943FE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FE92D81B2A815B6E00943FE0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FE92D8212A815B6E00943FE0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FE92D8192A815B6E00943FE0 /* Build configuration list for PBXProject "WatchNotes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE92D8152A815B6E00943FE0;
+			productRefGroup = FE92D81D2A815B6E00943FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE92D81B2A815B6E00943FE0 /* WatchNotes */,
+				FE92D8212A815B6E00943FE0 /* WatchNotes Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE92D81A2A815B6E00943FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE92D8202A815B6E00943FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE92D82F2A815B6F00943FE0 /* Preview Assets.xcassets in Resources */,
+				FE92D82C2A815B6F00943FE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE92D81E2A815B6E00943FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE92D8452A81749C00943FE0 /* SettingsView.swift in Sources */,
+				FE92D82A2A815B6E00943FE0 /* ContentView.swift in Sources */,
+				FE92D8432A81716400943FE0 /* HeaderView.swift in Sources */,
+				FE92D83F2A816D8C00943FE0 /* DetailVIew.swift in Sources */,
+				FE92D8282A815B6E00943FE0 /* WatchNotesApp.swift in Sources */,
+				FE92D83D2A815D8E00943FE0 /* Note.swift in Sources */,
+				FE92D8412A8170F900943FE0 /* CreditView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE92D8252A815B6E00943FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE92D8212A815B6E00943FE0 /* WatchNotes Watch App */;
+			targetProxy = FE92D8242A815B6E00943FE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE92D8302A815B6F00943FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE92D8312A815B6F00943FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FE92D8332A815B6F00943FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchNotes Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V5CW7SCCNU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchNotes;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.matbuompy.WatchNotes.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		FE92D8342A815B6F00943FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchNotes Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V5CW7SCCNU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchNotes;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.matbuompy.WatchNotes.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		FE92D8372A815B6F00943FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5CW7SCCNU;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchNotes;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.matbuompy.WatchNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FE92D8382A815B6F00943FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5CW7SCCNU;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchNotes;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.matbuompy.WatchNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE92D8192A815B6E00943FE0 /* Build configuration list for PBXProject "WatchNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE92D8302A815B6F00943FE0 /* Debug */,
+				FE92D8312A815B6F00943FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE92D8322A815B6F00943FE0 /* Build configuration list for PBXNativeTarget "WatchNotes Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE92D8332A815B6F00943FE0 /* Debug */,
+				FE92D8342A815B6F00943FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE92D8362A815B6F00943FE0 /* Build configuration list for PBXNativeTarget "WatchNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE92D8372A815B6F00943FE0 /* Debug */,
+				FE92D8382A815B6F00943FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE92D8162A815B6E00943FE0 /* Project object */;
+}
